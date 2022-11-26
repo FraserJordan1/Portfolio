@@ -1,0 +1,39 @@
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(32, 32, 32, 0.6) 0%, rgba(0, 168, 232, 0.2) 100%), rgba(0, 126, 167, 0.75);
+}
+
+.bottom-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+    padding-top: 2.5rem;
+}
+
+.bottom img {
+    width: 40px;
+    height: 40px;
+}
+
+.bottom img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+#resume {
+    width: 30px;
+}
+
+#mail {
+    height: 40px;
+}
+
+.bottom h3 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}

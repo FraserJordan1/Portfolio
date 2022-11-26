@@ -1,0 +1,122 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about h3 {
+    margin: 0;
+    font-size: 42px;
+
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 20%; */
+    align-items: center;
+    width: 100%;
+    
+}
+
+.about-container-gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(180deg, #003459 11.46%, #00171F 55.73%), 
+                linear-gradient(180deg, rgba(0, 52, 89, 0.2) 0%, 
+                rgba(0, 126, 167, 0.2) 100%);
+    
+}
+
+.about-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-title {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    /* justify-content: flex-start; */
+}
+
+.about-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-bio p {
+    font-size: 16px;
+    color: white;
+    max-width: 600px;
+    text-align: justify;
+    padding-left: 5.5%;
+    /* padding-right: 2.5%; */
+}
+
+
+#about-divider {
+    /* width: 640px; */
+    height: 6px;
+
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00171F;
+    border-radius: 20px;
+}
+
+#about-photo {
+    border: white solid;
+    border-radius: 4px;
+}
+
+#bubbles {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    /* height: 50%; */
+    /* width: 100vw; */
+}
+
+@media screen and (max-width: 800px) {
+    .about-bio {
+        align-items: center;
+    }
+    .about-container-row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    #about-photo {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 2.5%;
+        padding-left: 0;
+    }
+
+    .about-bio p {
+        width: 30rem;
+        padding: 0;
+    }
+
+    #bubbles {
+        width: 100vw;
+    }
+
+    #arrow {
+        width: 75%;
+    }
+}
+

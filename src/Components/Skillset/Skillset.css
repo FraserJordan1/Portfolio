@@ -1,0 +1,107 @@
+.skillset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(0, 52, 89, 0.2) 0%, rgba(0, 23, 31, 0.2) 36.98%), #003459;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skillset h3 {
+    margin: 0;
+}
+
+.skillset-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem; 
+}
+
+.skillset-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.skillset-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+#skillset-item-name {
+    font-size: 12px;
+}
+
+#skillset-item-logo {
+    width: 4.688rem;
+    height: 4.688rem;
+}
+
+#skillset-title {
+    font-size: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 7.5rem;
+}
+
+#skillset-title h3 {
+    margin: 0;
+}
+
+#skillset-desc {
+    font-size: 24px;
+    align-items: justify;
+    max-width: 1000px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.divider {
+    width: 12.5rem;
+    height: 2px;
+    border-radius: 4px;
+    background-color:#6ed6ff;
+}
+
+.divider-2 {
+    width: 3.75rem;
+    height: 2px;
+    border-radius: 4px;
+    background-color:#6ed6ff;
+}
+
+@media screen and (max-width: 800px) {
+
+    .background {
+        background-image: none;
+    }
+    
+    .skillset-item {
+        width: 25%;
+        height: auto;
+    }
+
+    #skillset-item-name {
+        font-size: 10px;
+    }
+
+    #skillset-item-logo {
+        width: 75%;
+    }
+
+    #skillset-item-logo img {
+        width: 75%;
+        height: auto;
+    }
+}
